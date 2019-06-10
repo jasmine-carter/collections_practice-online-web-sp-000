@@ -30,13 +30,6 @@ describe 'collections practice' do
     end
   end
 
-  #Bonus Question 4
-  #describe '#swap_elements_from_to' do
-  #  it 'swaps the given index and the destination_index'
-  #  expect(swap_elements_from_to([1, 2, 3, 4], 0, 3)).to eq ([4, 2, 3, 1])
-  #  end
-  #end
-
   # Question 5
   describe '#reverse_array' do
     it 'reverse the order of an array of integers' do
@@ -53,11 +46,11 @@ describe 'collections practice' do
   end
 
   # Question 7
-#  describe '#find_a' do
-#    it 'find all words that begin with "a" in the following array' do
-#      expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq(["apple", "avis", "arlo", "ascot"])
-#    end
-#  end
+  describe '#find_a' do
+    it 'find all words that begin with "a" in the following array' do
+      expect(find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])).to eq(["apple", "avis", "arlo", "ascot"])
+    end
+  end
 
   # Question 8
   describe '#sum_array' do
