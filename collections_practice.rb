@@ -36,3 +36,7 @@ def find_a(array)
    i[0] == "a"
  end
 end
+
+def find_a(array)
+  array.inject {|sum, n| sum + n}
+end
